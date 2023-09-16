@@ -40,7 +40,7 @@ export default {
         }
       }
 
-      console.log(this.$refs[`audio${buttonNumber}`]);
+      // console.log(this.$refs[`audio${buttonNumber}`]);
 
       this.$refs[`audio${buttonNumber}`].play();
     },
